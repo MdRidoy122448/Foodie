@@ -1,0 +1,93 @@
+/*===== CSS Variables Start =====*/
+:root{
+    --white: #ffffff;
+    --lato-font: 'Lato', sans-serif;
+    --grand-hotel-font: 'Grand Hotel', cursive;
+    --pink: #e8565e;
+}
+/*===== CSS Variables End =====*/
+
+/*===== Common CSS Start =====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/*===== Common CSS End =====*/
+
+/*===== Header-area start =====*/
+#header-area{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(210, 35, 38, 0.8),rgba(190, 29, 32, 0.8)),url("img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-text{
+    color: var(--white);
+    font-family: var(--lato-font);
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.menu{
+    margin-right: 0px;
+}
+.header-content{
+    max-width: 750px;
+}
+.header-content h1{
+    font-family: var(--grand-hotel-font);
+    font-size: 250px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.header-content h2{
+    font-family: var(--lato-font);
+    font-weight: 400;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+.header-content .hero-btn{
+    text-decoration: none;
+    background-color: var(--white);
+    display: inline-block;
+    color: var(--pink);
+    font-family: var(--lato-font);
+    font-size: 25px;
+    padding: 24px 85px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+/*===== Header-area end =====*/
+
+
+@media (max-width:991px){
+    .header-content h1{
+        font-size: 150px;
+    }
+    .header-content h2{
+        font-size: 22px;
+    }
+}
+@media (max-width:767px){
+    .header-content h1{
+        font-size: 100px;
+    }
+    .header-content h2{
+        font-size: 18px;
+    }
+    .header-content .hero-btn{
+        font-size: 20px;
+        padding: 15px 50px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:575px){
+    
+}
