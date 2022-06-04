@@ -5,6 +5,7 @@
     --grand-hotel-font: 'Grand Hotel', cursive;
     --pink: #e8565e;
     --butter: #eee6cc;
+    --off-white: #faf5e4;
 }
 /*===== CSS Variables End =====*/
 
@@ -130,7 +131,34 @@ h6{
 }
 
 
-/*========= Menu-section-end ==========*/
+/*========= Menu-section end ==========*/
+
+/*========= Order-section start ==========*/
+.order-section{
+    background-color: var(--off-white);
+}
+.order-left{
+    max-height: 700px;
+}
+.order-left img{
+    width: 100%;
+    max-height: 100%;
+}
+.order-right{
+    padding: 0 25px 0 60px;
+}
+.order-header{
+    font-family: var(--grand-hotel-font);
+    font-size: 100px;
+    color: var(--pink);
+}
+.order-paragraph{
+    text-align: left;
+    max-width: 550px;
+}
+
+/*========= Order-section-end ==========*/
+
 /*================ media queries for responsive==================== */
 @media (max-width:991px){
     .header-content h1{
@@ -157,6 +185,15 @@ h6{
     }
     p{
         font-size: 18px;
+    }
+    .order-left{
+    max-height: 350px;
+    }
+    .order-right{
+        padding: 50px 30px;
+    }
+    .order-header{
+        font-size: 70px;
     }
 }
 @media (max-width:575px){
