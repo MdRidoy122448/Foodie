@@ -294,7 +294,21 @@ footer{
     font-family: var(--grand-hotel-font);
     font-size: 38px;
 }
-.footer-text
+.icon-box{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    padding-top: 2px;
+}
+.icon-box a{
+    color: var(--light-black);
+}
+.icon-box:hover{
+    background-color: red;
+    color: wheat;
+}
+
 /*======== Footer Section End =========*/
 
 
