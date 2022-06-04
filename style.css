@@ -16,7 +16,7 @@
 img{
     max-width: 100%;
 }
-.section-big-text{
+.section-main-text{
     font-family: var(--grand-hotel-font);
     font-size: 125px;
     font-weight: 400;
@@ -84,10 +84,15 @@ h5{
     font-family: var(--grand-hotel-font);
 }
 p{
-    font-family: var(--lato-font);
     font-size: 22px;
 }
 /*========== Popular-area end ======*/
+
+/* ======= Statistic - section start ================*/
+
+.              
+
+/* ======= Statistic - section end ================*/
 
 /*================ media queries for responsive==================== */
 @media (max-width:991px){
@@ -109,6 +114,9 @@ p{
         font-size: 20px;
         padding: 15px 50px;
         margin-top: 50px;
+    }
+    .section-main-text{
+        font-size: 80px;
     }
 }
 @media (max-width:575px){
