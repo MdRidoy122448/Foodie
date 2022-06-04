@@ -1,9 +1,11 @@
 /*===== CSS Variables Start =====*/
 :root{
+    --light-black: #2a2a2a;
     --black: #000000;
     --white: #ffffff;
     --lato-font: 'Lato', sans-serif;
     --grand-hotel-font: 'Grand Hotel', cursive;
+    --nunito-font: 'Nunito', sans-serif;
     --pink: #e8565e;
     --butter: #eee6cc;
     --off-white: #faf5e4;
@@ -41,7 +43,7 @@ img{
 /*===== Common CSS End =====*/
 
 /*===== Header-area start =====*/
-#header-area{
+header{
     padding: 70px 0;
     width: 100%;
     background-image: linear-gradient(rgba(241, 5, 16, 0.7),rgba(236, 15, 26, 0.7)),url("img/banner.jpg");
@@ -249,6 +251,7 @@ form{
     max-width: 770px;
     position: relative;
     margin-top: 50px;
+    font-family: var(--lato-font);
 }
 input[type="text"]{
     width: 100%;
@@ -271,6 +274,29 @@ input[type="button"]{
 }
 
 /*======== Subscribe -section end =========*/
+
+/*======== Footer Section Start ========*/
+footer{
+    background-color: var(--light-black);
+    color: var(--white);
+    padding: 100px 0 125px;
+}
+.about-us{
+    font-size: 50px;
+    font-family: var(--grand-hotel-font);
+}
+.about-us-text, .footer-text{
+    font-size: 22px;
+    max-width: 490px;
+    font-family: var(--nunito-font);
+}
+.about, .services, .follow{
+    font-family: var(--grand-hotel-font);
+    font-size: 38px;
+}
+.footer-text
+/*======== Footer Section End =========*/
+
 
 /*================ media queries for responsive==================== */
 @media (max-width:991px){
