@@ -4,6 +4,7 @@
     --lato-font: 'Lato', sans-serif;
     --grand-hotel-font: 'Grand Hotel', cursive;
     --pink: #e8565e;
+    --butter: #eee6cc;
 }
 /*===== CSS Variables End =====*/
 
@@ -13,6 +14,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+p{
+    font-size: 22px;
+}
 img{
     max-width: 100%;
 }
@@ -20,7 +24,6 @@ img{
     font-family: var(--grand-hotel-font);
     font-size: 125px;
     font-weight: 400;
-    color: var(--pink);
     text-align: center;
 }
 .section-paragraph{
@@ -38,7 +41,7 @@ img{
 #header-area{
     padding: 70px 0;
     width: 100%;
-    background-image: linear-gradient(rgba(236, 15, 26, 0.7),rgba(236, 15, 26, 0.7)),url("img/banner.jpg");
+    background-image: linear-gradient(rgba(241, 5, 16, 0.7),rgba(236, 15, 26, 0.7)),url("img/banner.jpg");
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -78,22 +81,56 @@ img{
 #popular-paragraph{
     margin-bottom: 75px;
 }
+.popular-area h2{
+    color: var(--pink);
+}
 h5{
     color: var(--pink);
     font-size: 65px;
     font-family: var(--grand-hotel-font);
 }
-p{
-    font-size: 22px;
-}
 /*========== Popular-area end ======*/
 
 /* ======= Statistic - section start ================*/
-
-.              
-
+.statistic-section{
+    padding: 150px 0;
+    background-image: linear-gradient(rgba(241, 5, 16, 0.7),rgba(241, 5, 16, 0.7)),url("img/statistic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}             
+.statistic-circle{
+    max-width: 300px;
+    height: 300px;
+    border: 4px dashed var(--white);
+    border-radius: 50%;
+}
+.number{
+    margin-top: 60px;
+    font-family: var(--lato-font);
+    font-weight: 700;
+    font-size: 66px;
+}
+h3{
+    font-size: 50px;
+}
 /* ======= Statistic - section end ================*/
+/*========== Menu-section start ======*/
+.menu-section{
+    padding: 85px 0;
+    background-color: var(--butter);
+}
+.menu-section h2{
+    color: var(--pink);
+}
+h6{
+    font-family: var(--grand-hotel-font);
+    font-size: 50px;
+    color: var(--pink);
+}
 
+
+/*========= Menu-section-end ==========*/
 /*================ media queries for responsive==================== */
 @media (max-width:991px){
     .header-content h1{
@@ -117,6 +154,9 @@ p{
     }
     .section-main-text{
         font-size: 80px;
+    }
+    p{
+        font-size: 18px;
     }
 }
 @media (max-width:575px){
