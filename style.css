@@ -239,7 +239,7 @@ h6{
     margin-top: 35px;
 }
 /*===== Chef -section end =========*/
-/*======== Subscribe -section start ======*/
+/* ======== Subscribe -section start ====== */
 .subcribe-section{
     padding: 70px 0;
     background-color: var(--off-white);
@@ -257,18 +257,18 @@ input[type="text"]{
     width: 100%;
     padding: 12px 20px;
     border: none;
-    border-radius: 25px;
+    border-radius: 28px;
     outline: none;    
     font-size: 20px;
 }
 input[type="button"]{
     position: absolute;
     background-color: var(--pink);
-    padding: 12px 25px;
+    padding: 12px 26px;
     border: none;
-    right: 0;
-    font-size: 16px;
-    border-radius: 28px;
+    right: 0px;
+    font-size: 20px;
+    border-radius: 25px;
     font-family: var(--lato-font);
     font-weight: 700;
 }
@@ -276,7 +276,7 @@ input[type="button"]{
 /*======== Subscribe -section end =========*/
 
 /*======== Footer Section Start ========*/
-footer{
+/* footer{ 
     background-color: var(--light-black);
     color: var(--white);
     padding: 100px 0 125px;
@@ -307,9 +307,10 @@ footer{
 .icon-box:hover{
     background-color: red;
     color: wheat;
-}
+} */
 
 /*======== Footer Section End =========*/
+
 
 
 /*================ media queries for responsive==================== */
